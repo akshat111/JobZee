@@ -21,7 +21,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/api/v1/user/register",
+        "mongodb+srv://kakshat111:15876521Ag@@@jobzee.lxpsvxl.mongodb.net/v1/user/register",
         { name, email, password, phone, role },
         {
           withCredentials: true,
