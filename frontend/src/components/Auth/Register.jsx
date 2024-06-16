@@ -21,7 +21,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "mongodb+srv://kakshat111:15876521Ag@@@jobzee.lxpsvxl.mongodb.net/v1/user/register",
+        "https://job-zee-vert.vercel.app//v1/user/register",
         { name, email, password, phone, role },
         {
           withCredentials: true,
